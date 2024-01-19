@@ -4,20 +4,60 @@
 
 .page-1 {
     background: #fff;
-    height: 20rem;
+    height: 40rem;
    
 .item-container {
     display: grid;
-    grid-template-columns: repeat(auto-fill, 20rem);
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 45rem));
+    grid-template-rows: repeat(6, minmax(17.5rem, 12rem));
+    
     justify-content: center;
 
     // margin-top: 4rem;
 
     .item {
-        background: #000;
-        padding: 1rem;
-        margin-top: 3.5rem;
-        // border: 1px solid #fff;
+        background: #0F0F0F;
+        display: flex;
+        flex-flow: column;
+        gap: 0.8rem;
+        padding: 2rem;
+        margin-top: 3.5rem;     
+        margin-inline: 1rem;
+        box-shadow: 0px 4px 27px 2px rgba(0,0,0,0.33);
+        border-radius: 0.5rem;
+        border: 1px solid #000;
+        // ----------------------------------------------
+        // Center Formatt (changable)
+        align-items: center;
+        text-align: center;
+        // note: keep or remove for different formatting.
+
+        h3 {
+            font: 1.1em sans-serif;
+            color: #fff;
+        }
+
+        p {
+          font: calc(0.9em + 0.05em) sans-serif;
+          color: #a1a1a1;
+        }
+
+        .response {
+            width: 2rem;
+            margin-top: -1rem;
+        }
+
+        button {
+          background: #1f1f1f;
+          font: 700 0.9em sans-serif;
+          color: #fff;
+          border: none;
+          border-radius: 0.5rem;
+          padding: 0.7rem;
+          max-width: 7rem;
+
+        }
         
     }
 }
