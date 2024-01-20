@@ -1,16 +1,16 @@
 // Header ---------------
 
 
+
+
 // HomePage -------------
 
 
 // Page-1 ---------------
-
 @media (width >= 752px) {
 
     .page-1 {
         max-height: 56.5rem;
-
         .item-container {
             max-height: 58rem;
             // background: #000;
@@ -29,3 +29,56 @@
 
 
 
+// Page-2 -----------------------------
+@media (width >= 705px) {
+
+ .sldtxt {
+    margin-inline: 1rem;
+ }
+    
+}
+
+@media (width >= 800px) {
+
+    .sldtxt {
+       margin-inline: 1.5rem;
+    //    border: 1px solid #000;
+    }
+       
+   }
+
+
+   @media (width >= 1000px) {
+
+    .sldtxt {
+       margin-inline: 2.3rem;
+    //    border: 1px solid #000;
+    }
+
+    @keyframes carouselOne {
+
+        0% {
+            
+            transition: 0.3s; 
+        }
+    
+        100% {
+            transform: translateX(60rem);
+            transition: 0.4s; 
+        }
+    }
+
+
+   }
+
+
+
+   @media (width >= 1200px) {
+
+    .sldtxt {
+       margin-inline: 3rem;
+    //    border: 1px solid #000;
+    }
+
+
+   }

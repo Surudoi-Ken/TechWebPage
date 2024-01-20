@@ -1,3 +1,4 @@
+@use "./media-queries";
 @use "./fonts";
 @import "./variables";
 
@@ -66,7 +67,7 @@ header {
         color: #A6A6A6;
     }
 
-    ul {
+    .dropdown{
       display: flex;
       flex-flow: column wrap;
 
@@ -75,64 +76,98 @@ header {
       border-top: 2rem solid $darkPurple;
       border-bottom: 1px solid #BFBFBF;
       box-shadow: 2px 11px 42px -5px rgba(0,0,0,0.36);
-      padding-top: 0.5rem;
-      padding-bottom: 2rem;
+      padding-top: 0.2rem;
+      padding-bottom: 0.5rem;
       // was padding block - base notation
       // padding-bottom: 4rem;
-      padding-right: 2rem; 
       // 1.3rem padding right base notation
-      padding-left: 2rem;
+      padding-inline: 0.2rem;
       border-top-left-radius: calc(0.4rem + 0.010rem);
       background: #fff;
-      display: none;
+      // display: none;
       // temporary display-none -- change later.
-
       
-      .list {
-        display: flex;
-        flex-flow: column wrap;
-        // padding-right: 6rem;
-        // margin-inline: -2rem;
-        background: #fff;
-        h3 {
-          font: 1em sans-serif;
+      
+                .list {
+                  display: flex;
+                  // position: absolute;
+                  flex-flow: column wrap;
+                  background: #fff;
+                  justify-content: center;
+                  gap: 0.5rem;
+                  // padding-inline: 2rem;
+                  border: none;
+                  min-width: 15rem;
+                  &:hover {
+                    border-radius: 0.2rem;
+                    background: #f0efef;
+                  }
+                  &:active {
+                    border-radius: 0.2rem;
+                    background: #f0efef;
+                  }
+                  .img {
+                   width: 1.2rem;
+                   position: relative;
+                   left: 0.5rem;
+                   top: 1.5rem;
+                  }
+                  // border: 1px solid #000;
+                  h3 {
+                    font: bold 1em sans-serif;
+                    position: relative;
+                    left: 2.5rem;
+
+                  }
+                  p {
+                    position: relative;
+                    bottom: 0.4rem;
+                    left: 2.5rem;
+                  }
+                }
+
+      #img-container {
+          display: flex;
+          flex-flow: column;
+          min-height: 10rem;
+          position: relative;
+          right: 1rem;
+          top: 0.3rem;
+          gap: calc(2rem + 0.10rem);
+          // border: 1px solid #000;
+
+
         }
-      }
-
-      li {
-        list-style-type: none;
-        display: block;
-        padding: 0.7rem;
-        margin-block: 0.7rem;
-        // border: 1px solid #000;
         
-       .img {
-        width: 1.2rem;
-       }
+        // .dropdown-text {
+        //   display: flex;
+        //   flex-flow: column;
+        //   gap: 1.3rem;
+        //   position: relative;
+        //   right: 0.5rem;
+        //   top: 0.3rem;
+          
+          
+          
+        }
 
-        a {    
-          text-decoration: none; 
-          border-bottom: 1px solid #000;
-          font:  1em sans-serif;
-          color: #1D1D1D;
-          }
-        }  
+
+      // li {
+      //   list-style-type: none;
+      //   display: block;
+      //   padding: 0.7rem;
+      //   margin-block: 0.7rem;
+      //   // border: 1px solid #000;
+        
+
+      //   a {    
+      //     text-decoration: none; 
+      //     border-bottom: 1px solid #000;
+      //     font:  1em sans-serif;
+      //     color: #1D1D1D;
+      //     }
+      //   }  
       }
     }
 // Navbar-End
-
-#img-container {
-    display: flex;
-    flex-flow: column;
-    min-height: 10rem;
-    // border: 1px solid #000;
-    position: relative;
-    gap: calc(2rem + 0.10rem);
-    // right: 8rem;
-    // bottom: 4rem;
-}
-
-
-}
-
 
