@@ -1,0 +1,5 @@
+Note: need to update ul dropDown menu for phone 
+view, create review section, create media queries 
+for ul once completed, possibly change ul to div 
+and display flex, but would have to change all 
+li's to div and display flex.
