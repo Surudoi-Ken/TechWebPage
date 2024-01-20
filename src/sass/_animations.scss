@@ -1,0 +1,12 @@
+@keyframes carouselOne {
+
+    0% {
+        
+        transition: 0.3s; 
+    }
+
+    100% {
+        transform: translateX(47rem);
+        transition: 0.4s; 
+    }
+}

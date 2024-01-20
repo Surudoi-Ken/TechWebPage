@@ -1,0 +1,31 @@
+// Header ---------------
+
+
+// HomePage -------------
+
+
+// Page-1 ---------------
+
+@media (width >= 752px) {
+
+    .page-1 {
+        max-height: 56.5rem;
+
+        .item-container {
+            max-height: 58rem;
+            // background: #000;
+        }
+    }
+    
+}
+
+@media (width >= 1136px) {
+
+    .page-1 {
+        max-height: 38.5rem;
+    }
+    
+}
+
+
+

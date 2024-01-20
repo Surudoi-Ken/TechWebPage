@@ -26,7 +26,7 @@
         // border-top: 2px solid $darkPurple;
         
         span {
-            color: #690DA4;
+            color: $lightPurple;
         }
     }
 
@@ -63,7 +63,7 @@
         max-width: 8rem;
         color: #fff;
         border: none;
-        background: #240141;
+        background: $darkPurple;
         border-radius: 0.2rem;
         margin-top: 2rem;
     }

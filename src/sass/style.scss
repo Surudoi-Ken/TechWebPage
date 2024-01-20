@@ -2,6 +2,8 @@
 @use "./header";
 @use "./homepage";
 @use "./page-1";
+@use "./page-2";
+// @use "./page-2";
 
 
 // Global Styles
@@ -13,7 +15,6 @@
 
 body {
     background: radial-gradient(#EBEBEB, #fff) ;
-    
 }
 
   

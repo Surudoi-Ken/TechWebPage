@@ -55,7 +55,7 @@ header {
     z-index: 1;
     
 
-    button {
+    .top-button {
         // margin-bottom: 2.2rem;
         background: none;
         border: none;
@@ -67,37 +67,51 @@ header {
     }
 
     ul {
-      display: inline-block;
+      display: flex;
+      flex-flow: column wrap;
+
       // border: 1px solid #BFBFBF; 
       border-inline: 1px solid #BFBFBF;
-      border-top: 2rem solid #690DA4;
+      border-top: 2rem solid $darkPurple;
       border-bottom: 1px solid #BFBFBF;
       box-shadow: 2px 11px 42px -5px rgba(0,0,0,0.36);
-      padding-block: 1.5rem;
+      padding-top: 0.5rem;
+      padding-bottom: 2rem;
       // was padding block - base notation
       // padding-bottom: 4rem;
-      padding-right: 1.3rem; 
+      padding-right: 2rem; 
       // 1.3rem padding right base notation
       padding-left: 2rem;
       border-top-left-radius: calc(0.4rem + 0.010rem);
-      background: linear-gradient(#fff, #DADADA);
+      background: #fff;
       display: none;
-      // temporary display-none -- change later
+      // temporary display-none -- change later.
+
+      
+      .list {
+        display: flex;
+        flex-flow: column wrap;
+        // padding-right: 6rem;
+        // margin-inline: -2rem;
+        background: #fff;
+        h3 {
+          font: 1em sans-serif;
+        }
+      }
 
       li {
         list-style-type: none;
         display: block;
         padding: 0.7rem;
+        margin-block: 0.7rem;
         // border: 1px solid #000;
         
        .img {
         width: 1.2rem;
        }
 
-        a {
-        //   display: block;
-          
-          text-decoration: none;
+        a {    
+          text-decoration: none; 
           border-bottom: 1px solid #000;
           font:  1em sans-serif;
           color: #1D1D1D;
@@ -112,10 +126,10 @@ header {
     flex-flow: column;
     min-height: 10rem;
     // border: 1px solid #000;
-    position: absolute;
-    gap: calc(1.3rem + 0.10rem);
-    right: 7.5rem;
-    bottom: 1.6rem;
+    position: relative;
+    gap: calc(2rem + 0.10rem);
+    // right: 8rem;
+    // bottom: 4rem;
 }
 
 

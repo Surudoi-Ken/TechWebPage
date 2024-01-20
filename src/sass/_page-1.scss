@@ -1,17 +1,19 @@
-@use "./fonts";
+@use "./media-queries";
 @import "./variables";
 
 
 .page-1 {
     background: #fff;
-    height: 40rem;
+    height: 113rem;
+    // border: 1px solid red;
    
 .item-container {
     display: grid;
     gap: 1rem;
-    grid-template-columns: repeat(auto-fit, minmax(15rem, 45rem));
+    grid-template-columns: repeat(auto-fill, minmax(23rem, 1fr));
+    // grid-template-columns: repeat(auto-fill, 20rem);
     grid-template-rows: repeat(6, minmax(17.5rem, 12rem));
-    
+    z-index: 2;
     justify-content: center;
 
     // margin-top: 4rem;
@@ -29,8 +31,8 @@
         border: 1px solid #000;
         // ----------------------------------------------
         // Center Formatt (changable)
-        align-items: center;
-        text-align: center;
+        // align-items: center;
+        // text-align: center;
         // note: keep or remove for different formatting.
 
         h3 {
@@ -62,26 +64,5 @@
     }
 }
 
-
-    // .text-box {
-    //     display: flex;
-    //     flex-flow: column wrap;
-    //     border: 1px solid #000;
-    //     place-self: end;
-    //     h3 {
-    //         font: bold 0.9em sans-serif;
-    //         font-weight: 800;
-    //      }
-     
-    //      h1 {
-    //          font: 2em dm-sans;
-             
-    //      }
-     
-    //      p {
-    //          font: 0.8em sans-serif;
-             
-    //      }
-    //  }
-
+    
 }
