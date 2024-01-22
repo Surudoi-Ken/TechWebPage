@@ -2,20 +2,22 @@
 @use "./fonts";
 @import "./variables";
 
+
 header {
- padding-top: 2rem;
-//  padding-bottom: 1rem;
- padding-inline: 0.5rem;
- display: flex;
- flex-flow: row;
- justify-content: space-around;
- gap: 18rem;
- border-bottom: 1px solid #E7E7E7;
-//  box-shadow: -1px 13px 28px -16px rgba(0,0,0,0.36);
-  // background: $darkPurple2;
+  position: fixed;
+  width: 100vw;
+  padding-top: 2rem;
+  gap: 8rem;
+  padding-inline: 0.5rem;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+  border-bottom: 1px solid #E7E7E7;
   background: #fff;
- 
- .logo {
+  margin-top: -4rem;
+  z-index: 300;
+
+  .logo {
     display: flex;
     flex-flow: row;
     justify-content: space-around;
@@ -23,151 +25,63 @@ header {
     position: relative;
     bottom: 0.7rem;
     left: 0.5rem;
-    // margin-bottom: 1rem;
-
-   
 
     h3 {
       color: #000;
-      // font: italic 900 1.5em sans-serif;
       font:  1.5em dm-sans;
       position: relative;
       top: 0.8rem;
       right: 0.8rem;
-      // bottom: 0.3rem;
     }
 
     .response-img {
-     width: 3.7rem;
-     position: relative;
-     bottom: 0.5rem;
-     margin-left: 0.5rem;
-     
-   }
- }
-
-
-// Navbar
-.navbar {
-    position: absolute;
-    right: 2rem;
-    display: flex;
-    flex-flow: column wrap;
-    z-index: 1;
-    
-
-    .top-button {
-        // margin-bottom: 2.2rem;
-        background: none;
-        border: none;
-        font-size: 2em;
-        position: relative;
-        bottom: 1rem;
-        margin-left: 6rem;
-        color: #A6A6A6;
+      width: 3.7rem;
+      height: 3.7rem;
+      position: relative;
+      bottom: 0.5rem;
+      margin-left: 0.5rem;
     }
+  }
 
-    .dropdown{
-      display: flex;
-      flex-flow: column wrap;
 
-      // border: 1px solid #BFBFBF; 
-      border-inline: 1px solid #BFBFBF;
-      border-top: 2rem solid $darkPurple;
-      border-bottom: 1px solid #BFBFBF;
-      box-shadow: 2px 11px 42px -5px rgba(0,0,0,0.36);
-      padding-top: 0.2rem;
-      padding-bottom: 0.5rem;
-      // was padding block - base notation
-      // padding-bottom: 4rem;
-      // 1.3rem padding right base notation
-      padding-inline: 0.2rem;
-      border-top-left-radius: calc(0.4rem + 0.010rem);
-      background: #fff;
-      // display: none;
-      // temporary display-none -- change later.
-      
-      
-                .list {
-                  display: flex;
-                  // position: absolute;
-                  flex-flow: column wrap;
-                  background: #fff;
-                  justify-content: center;
-                  gap: 0.5rem;
-                  // padding-inline: 2rem;
-                  border: none;
-                  min-width: 15rem;
-                  &:hover {
-                    border-radius: 0.2rem;
-                    background: #f0efef;
-                  }
-                  &:active {
-                    border-radius: 0.2rem;
-                    background: #f0efef;
-                  }
-                  .img {
-                   width: 1.2rem;
-                   position: relative;
-                   left: 0.5rem;
-                   top: 1.5rem;
-                  }
-                  // border: 1px solid #000;
-                  h3 {
-                    font: bold 1em sans-serif;
-                    position: relative;
-                    left: 2.5rem;
+  nav {
+    .cont {
+      .top-button {
+        position: absolute;
+        visibility: hidden;
+      }
 
-                  }
-                  p {
-                    position: relative;
-                    bottom: 0.4rem;
-                    left: 2.5rem;
-                  }
-                }
+      button{
+        border: none;
+        background: none;
+        margin: 0 1.7rem;
+        cursor: pointer;
 
-      #img-container {
-          display: flex;
-          flex-flow: column;
-          min-height: 10rem;
-          position: relative;
-          right: 1rem;
-          top: 0.3rem;
-          gap: calc(2rem + 0.10rem);
-          // border: 1px solid #000;
-
+        .bar-img {
+          width: 1.2rem;
+          position: absolute;
+          visibility: hidden;
 
         }
-        
-        // .dropdown-text {
-        //   display: flex;
-        //   flex-flow: column;
-        //   gap: 1.3rem;
-        //   position: relative;
-        //   right: 0.5rem;
-        //   top: 0.3rem;
-          
-          
-          
+
+        h3 {
+          font: calc(1.2em + 0.01rem) righteous;
+          margin-top: 0.5rem;
+          transition: 0.3s;
+          &:hover {
+            transform: translateY(-0.2rem);
+            transition: transform 0.4s;
+            color: $magenta;
+          }
         }
 
-
-      // li {
-      //   list-style-type: none;
-      //   display: block;
-      //   padding: 0.7rem;
-      //   margin-block: 0.7rem;
-      //   // border: 1px solid #000;
-        
-
-      //   a {    
-      //     text-decoration: none; 
-      //     border-bottom: 1px solid #000;
-      //     font:  1em sans-serif;
-      //     color: #1D1D1D;
-      //     }
-      //   }  
+        p {
+          visibility: hidden;
+          position: absolute;
+        }
       }
     }
-// Navbar-End
+  }
+}
 
+ 
