@@ -1,3 +1,4 @@
+@use "./media-queries";
 @use "./fonts";
 @import "./variables";
 
@@ -13,7 +14,7 @@
     // border-bottom: 2px solid $darkPurple;
 
     .desktop-img {
-      width: 15rem;
+      width: 15rem ;
       margin-top: 1.8rem;
       margin-left: 5.1rem;
     //   border: 1px solid #000;
@@ -54,6 +55,13 @@
         background: $darkPurple;
         border-radius: 0.2rem;
         margin-top: 2rem;
+        transition: 0.3s;
+        &:hover {
+          transform: scale(1.05);
+          transition: transform 0.3s;
+          background: $darkPurple2;
+          cursor: pointer;
+        }
         
     }
 
@@ -67,6 +75,13 @@
         background: $darkPurple;
         border-radius: 0.2rem;
         margin-top: 2rem;
+        transition: 0.3s;
+        &:hover {
+            transform: scale(1.05);
+            transition: transform 0.3s;
+            background: $darkPurple2;
+            cursor: pointer;
+        }
     }
 
     
