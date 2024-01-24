@@ -70,59 +70,10 @@
      }
        }
 
-    .text-box {
-    
-            display: flex;
-            flex-flow: column wrap;
-            gap: 0.3rem;
-            align-content: center;
-            text-align: center;
-            position: relative;
-            top: 3rem;
-            // border: 1px solid #000;
-    
-            // .swoop {
-            //     width: 8rem;
-            //     margin-block: -1rem;
-            //   }
+       .text-box {
+        
+       }
 
-            .arcs3 {
-                width: 3.5rem;
-                align-self: center;
-            }
-    
-            h3 {
-                font: bold 1.3em dm-sans;
-                font-weight: 800;
-                color: $darkPurple;
-                margin-top: 0.3rem;
-
-                &:before {
-                  content:'🗣️';
-                  font-size: 3rem;
-
-                }
-
-                span {
-                    color: $magenta;
-                }
-             }
-
-             h1 {
-                font: bold 2.8em dm-sans;
-             }
-         
-             p {
-                 font: 1em sans-serif;
-                 color: #7F7F7F;
-
-                 span {
-                    color: $lightPurple;
-                    font-weight: bold;
-                 }
-             }
          }
 
-
-}
 
