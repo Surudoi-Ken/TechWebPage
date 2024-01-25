@@ -8,6 +8,10 @@
     flex-flow: column wrap;
     padding-bottom: 2rem;
     margin-top: 4rem;
+    background-image: url(../assets/images/purple-wave.svg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
     // border-bottom: 1.5px solid $darkPurple;
     // box-shadow: -5px 20px 39px -16px rgba(0,0,0,0.36);
     
@@ -25,10 +29,11 @@
         max-width: 25rem;
         text-align: center;
         margin-top: 1rem;
+        color: #fff;
         // border-top: 2px solid $darkPurple;
         
         span {
-            color: $lightPurple;
+            color: $lighterPurple;
         }
     }
 
@@ -51,8 +56,8 @@
         font: bold 0.9em sans-serif;
         max-width: 8rem;
         color: #fff;
-        border: none;
-        background: $darkPurple;
+        border: 1px solid #fff;;
+        background: $lightPurple;
         border-radius: 0.2rem;
         margin-top: 2rem;
         transition: 0.3s;
@@ -71,8 +76,8 @@
         font: bold 0.9em sans-serif;
         max-width: 8rem;
         color: #fff;
-        border: none;
-        background: $darkPurple;
+        border: 1px solid #fff;
+        background: $lightPurple;
         border-radius: 0.2rem;
         margin-top: 2rem;
         transition: 0.3s;
