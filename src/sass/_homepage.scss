@@ -8,6 +8,7 @@
     flex-flow: column wrap;
     padding-bottom: 2rem;
     margin-top: 4rem;
+    // background: #000;
     background-image: url(../assets/images/purple-wave.svg);
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -33,7 +34,7 @@
         // border-top: 2px solid $darkPurple;
         
         span {
-            color: $lighterPurple;
+            color: $lighterPurple !important;
         }
     }
 
@@ -56,9 +57,9 @@
         font: bold 0.9em sans-serif;
         max-width: 8rem;
         color: #fff;
-        border: 1px solid #fff;;
-        background: $lightPurple;
-        border-radius: 0.2rem;
+        border: none;
+        background: $lighterPurple;
+        border-radius: 0.5rem;
         margin-top: 2rem;
         transition: 0.3s;
         &:hover {
@@ -76,9 +77,9 @@
         font: bold 0.9em sans-serif;
         max-width: 8rem;
         color: #fff;
-        border: 1px solid #fff;
-        background: $lightPurple;
-        border-radius: 0.2rem;
+        border: none;
+        background: $lighterPurple;
+        border-radius: 0.5rem;
         margin-top: 2rem;
         transition: 0.3s;
         &:hover {

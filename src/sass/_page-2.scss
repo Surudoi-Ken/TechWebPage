@@ -5,7 +5,7 @@
 
 .page-2{
     max-height: 150rem;
-    background: #000;
+    background-image: url(../assets/images/connect.svg);
     overflow: hidden;
     padding-bottom: 8rem;
     border-bottom: 4px solid $tingePurple;
@@ -27,19 +27,17 @@
          padding-right: 10rem;
          
          padding-bottom: 1.5rem;
-         background: #fff;
+         background: #141414;
         //  border: 1px solid #000;
    
        .sldtxt {
         text-align: center;
+        color: #fff;
         font: bold 1em sans-serif;
-        // min-width: 15rem;
         animation: carouselOne 30s linear infinite;
         position: relative;
         right: 55rem;
         top: 2.5rem;
-        // border: 1px solid #000;
-        // width: 20rem;
         
         &:before {
             content:'✔';
@@ -79,28 +77,35 @@
          display: flex;
          flex-flow: column;
          align-items: center;
-         gap: 6rem;
+         gap: 15rem;
 
          .square-1 {
+            position: relative;
+            right: 11rem;
+              &:hover {
+                  transform: rotateX(20deg) rotateY(-10deg);
+               }     
             .squarebox-1 {
                display: flex;
                flex-flow: column;
                gap: 0.8rem;
+
+
                
            h1 {
-             font: bold 4em sans-serif;
+             font: bold 3em sans-serif;
              color: $tingePurple;
              
            }
 
            h3 {
-            font: 2.5em sans-serif;
+            font: 1.5em sans-serif;
             color: $tingePurple2;
             
            }
 
            p {
-            font: 1.7em sans-serif;
+            font: 1em sans-serif;
             color: #fff;
             max-width: 35rem;
             text-align: center;
@@ -112,26 +117,30 @@
          }
 
          .square-2 {
-
+            position: relative;
+            left: 11rem;
+            &:hover {
+               transform: rotateX(20deg) rotateY(10deg);
+            }   
             .squarebox-2 {
                display: flex;
                flex-flow: column;
                gap: 0.8rem;
                
            h1 {
-             font: bold 4em sans-serif;
+             font: bold 3em sans-serif;
              color: $tingePurple;
              
            }
 
            h3 {
-            font: 2.5em sans-serif;
+            font: 1.5em sans-serif;
             color: $tingePurple2;
             
            }
 
            p {
-            font: 1.7em sans-serif;
+            font: 1em sans-serif;
             color: #fff;
             max-width: 35rem;
             text-align: center;
@@ -143,25 +152,30 @@
          }
 
          .square-3 {
+            position: relative;
+            right: 11rem;
+            &:hover {
+               transform: rotateX(20deg) rotateY(-10deg);
+            }   
             .squarebox-3 {
                display: flex;
                flex-flow: column;
                gap: 0.8rem;
                
            h1 {
-             font: bold 4em sans-serif;
+             font: bold 3em sans-serif;
              color: $tingePurple;
              
            }
 
            h3 {
-            font: 2.5em sans-serif;
+            font: 1.5em sans-serif;
             color: $tingePurple2;
             
            }
 
            p {
-            font: 1.7em sans-serif;
+            font: 1em sans-serif;
             color: #fff;
             max-width: 35rem;
             text-align: center;
@@ -171,19 +185,24 @@
          }
 
          #ai-img {
-            width: 25rem;
+            width: 15rem;
             position: relative;
             right: 1.5rem;
             bottom: 2rem;
          }
 
          #sq {
+            perspective: 1000px;
             max-width: 80rem;
             display: flex;
             flex-flow: row;
             border: 1px solid #0E0E0E;
             padding: 2.5rem;
-            
+            background: #000;
+            transition: 0.3s;
+             &:hover {
+               transition: transform 0.3s;
+             }
          }
 
        }
