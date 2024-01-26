@@ -592,3 +592,258 @@
 
 
    }
+
+
+@media (width <= 1150px) {
+
+    .square-container {
+        .square-1 {
+           .squarebox-1 {
+              
+          h1 {
+            font: bold 3em sans-serif !important; 
+
+            
+          }
+
+          h3 {
+           font: 1.7em sans-serif !important;
+           color: #C172FF;
+           
+          }
+
+          p {
+           font: 1.2em sans-serif !important;
+          }
+           }
+         
+
+
+        }
+
+        .square-2 {
+
+           .squarebox-2 {
+              display: flex;
+              flex-flow: column;
+              gap: 0.8rem;
+              
+          h1 {
+            font: bold 3em sans-serif !important;
+            
+          }
+
+          h3 {
+           font: 1.7em sans-serif !important;
+           
+          }
+
+          p {
+           font: 1.2em sans-serif !important;
+          }
+           }
+           
+
+
+        }
+
+        .square-3 {
+           .squarebox-3 {
+          h1 {
+            font: bold 3em sans-serif !important;
+            
+          }
+
+          h3 {
+           font: 1.7em sans-serif !important; 
+           
+          }
+
+          p {
+           font: 1.2em sans-serif !important;
+          }
+           }
+
+        }
+
+        #ai-img {
+           height: 15rem !important;
+           width: 15rem !important;
+        }
+
+
+      }
+
+
+}
+
+
+
+@media (width <= 975px) {
+
+    .square-container {
+        .square-1 {
+            
+           .squarebox-1 {
+              
+          h1 {
+            font: bold 3em sans-serif !important; 
+
+            
+          }
+
+          h3 {
+           font: 1.7em sans-serif !important;
+           color: #C172FF;
+           
+          }
+
+          p {
+           font: 1.2em sans-serif !important;
+          }
+           }
+         
+
+
+        }
+
+        .square-2 {
+
+           .squarebox-2 {
+              
+          h1 {
+            font: bold 3em sans-serif !important;
+            
+          }
+
+          h3 {
+           font: 1.7em sans-serif !important;
+           
+          }
+
+          p {
+           font: 1.2em sans-serif !important;
+          }
+           }
+           
+
+
+        }
+
+        .square-3 {
+           .squarebox-3 {
+          h1 {
+            font: bold 3em sans-serif !important;
+            
+          }
+
+          h3 {
+           font: 1.7em sans-serif !important; 
+           
+          }
+
+          p {
+           font: 1.2em sans-serif !important;
+          }
+           }
+
+        }
+
+        #ai-img {
+           height: 13rem !important;
+           width: 13rem !important;
+        }
+
+        #sq {
+           flex-flow: column !important;
+           max-height: 60rem;
+           
+        }
+
+      }
+
+
+
+
+}
+
+
+      @media (width <= 1046px) {
+
+        footer {
+            .footer-container1 {
+                h3 {
+                    font: 2em dm-sans !important;
+            }      
+        
+            p {
+                font: bold 1.5em sans-serif !important; 
+            }   
+            }
+        
+        
+            .footer-container2 {
+        
+                .form {
+                    max-width: 25rem;
+                    min-width: 10rem !important;
+                    padding-block: 0.7rem !important;
+                    padding-left: 0.7rem !important;
+                    padding-right: 6rem !important;
+                    font: 0.7em sans-serif !important;
+                }
+        
+                button {
+                    max-width: 6rem;
+                    padding-block: 0.1rem !important;
+                    padding-inline: 0.7rem !important;
+                    font: 0.9em sans-serif !important;
+                }
+            }
+        }
+
+      }
+
+
+      @media (width <= 836px) {
+
+        footer {
+            flex-direction: column;
+            .footer-container1 {
+                h3 {
+                    font: 2em dm-sans !important;
+            }      
+        
+            p {
+                font: bold 1.5em sans-serif !important; 
+            }   
+            }
+        
+        
+            .footer-container2 {
+        
+                .form {
+                    max-width: 25rem;
+                    min-width: 10rem !important;
+                    padding-block: 0.7rem !important;
+                    padding-left: 0.7rem !important;
+                    padding-right: 6rem !important;
+                    font: 0.7em sans-serif !important;
+                }
+        
+                button {
+                    max-width: 6rem;
+                    padding-block: 0.1rem !important;
+                    padding-inline: 0.7rem !important;
+                    font: 0.9em sans-serif !important;
+                }
+            }
+        }
+
+      }
+
+
+
+
+
+

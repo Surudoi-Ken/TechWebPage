@@ -3,6 +3,7 @@
 @use "./homepage";
 @use "./page-1";
 @use "./page-2";
+@use "./footer";
 // @use "./media-queries";
 // @use "./page-2";
 
@@ -15,7 +16,7 @@
 }
 
 body {
-    background: radial-gradient(#D9D9D9, #fff) ;
+    background: #fff;
 }
 
   

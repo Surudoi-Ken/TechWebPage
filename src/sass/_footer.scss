@@ -1,0 +1,63 @@
+@use "./media-queries";
+@use "./fonts";
+@import "./variables";
+
+
+
+footer {
+    max-height: 40rem;
+    min-width: 10rem;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    gap: 10rem;
+    padding-block: 2rem;
+
+    .footer-container1 {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        h3 {
+            font: 3em dm-sans;
+            position: relative;
+            top: 0.8rem;
+            color: #000;
+    }      
+
+    p {
+        font: bold 2em sans-serif;
+        color: $lightPurple;
+    }   
+    }
+
+
+    .footer-container2 {
+        display: flex;
+        flex-flow: column;
+        gap: 1rem;
+        
+
+
+        
+        .form {
+            border: 2px solid $tingePurple;
+            background: #070707;
+            max-width: 25rem;
+            padding-block: 1rem;
+            padding-left: 1rem;
+            padding-right: 8rem;
+            font: 0.8em sans-serif;
+            margin-right: 4rem;
+        }
+
+        button {
+            max-width: 6rem;
+            padding-block: 0.2rem;
+            padding-inline: 1rem;
+            font: 1em sans-serif;
+            background: $tingePurple;
+            color: #fff;
+            border: 2px solid $tingePurple;
+        }
+    }
+}

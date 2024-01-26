@@ -4,9 +4,13 @@
 @import "./variables";
 
 .page-2{
-    height: 60rem;
+    max-height: 150rem;
     background: #000;
     overflow: hidden;
+    padding-bottom: 8rem;
+    border-bottom: 4px solid $tingePurple;
+    border-bottom-left-radius: 5rem;
+
        
     .slideshow {
          display: flex;
@@ -69,9 +73,119 @@
         min-width: 9rem;
      }
        }
+       
+       .square-container {
+         margin-top: 9.4rem;
+         display: flex;
+         flex-flow: column;
+         align-items: center;
+         gap: 6rem;
 
-       .text-box {
-        
+         .square-1 {
+            .squarebox-1 {
+               display: flex;
+               flex-flow: column;
+               gap: 0.8rem;
+               
+           h1 {
+             font: bold 4em sans-serif;
+             color: $tingePurple;
+             
+           }
+
+           h3 {
+            font: 2.5em sans-serif;
+            color: $tingePurple2;
+            
+           }
+
+           p {
+            font: 1.7em sans-serif;
+            color: #fff;
+            max-width: 35rem;
+            text-align: center;
+           }
+            }
+          
+
+
+         }
+
+         .square-2 {
+
+            .squarebox-2 {
+               display: flex;
+               flex-flow: column;
+               gap: 0.8rem;
+               
+           h1 {
+             font: bold 4em sans-serif;
+             color: $tingePurple;
+             
+           }
+
+           h3 {
+            font: 2.5em sans-serif;
+            color: $tingePurple2;
+            
+           }
+
+           p {
+            font: 1.7em sans-serif;
+            color: #fff;
+            max-width: 35rem;
+            text-align: center;
+           }
+            }
+            
+
+
+         }
+
+         .square-3 {
+            .squarebox-3 {
+               display: flex;
+               flex-flow: column;
+               gap: 0.8rem;
+               
+           h1 {
+             font: bold 4em sans-serif;
+             color: $tingePurple;
+             
+           }
+
+           h3 {
+            font: 2.5em sans-serif;
+            color: $tingePurple2;
+            
+           }
+
+           p {
+            font: 1.7em sans-serif;
+            color: #fff;
+            max-width: 35rem;
+            text-align: center;
+           }
+            }
+
+         }
+
+         #ai-img {
+            width: 25rem;
+            position: relative;
+            right: 1.5rem;
+            bottom: 2rem;
+         }
+
+         #sq {
+            max-width: 80rem;
+            display: flex;
+            flex-flow: row;
+            border: 1px solid #0E0E0E;
+            padding: 2.5rem;
+            
+         }
+
        }
 
          }
