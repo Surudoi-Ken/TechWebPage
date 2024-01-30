@@ -390,8 +390,8 @@
 
     #homepage { 
         #h1 {
-            font: 3.8em dm-sans;
-            max-width: 50rem;
+            font: 4.5em dm-sans;
+            max-width: 57rem;
             text-align: center;
             margin-top: 1rem;
             margin-left: 1rem;
@@ -447,10 +447,10 @@
         display: flex;
         flex-flow: row wrap;
         // gap: 12rem;
-        max-width: 28.7rem;
+        max-width: 32.7rem;
         // border: 1px solid #000;
         justify-content: space-between;
-        margin-left: 10.8rem;
+        margin-left: 12.3rem;
         margin-top: 0.3rem;
         position: relative;
         // bottom: 2.3rem;
@@ -712,16 +712,6 @@
         
 
         footer {
-            .footer-container1 {
-                h3 {
-                    font: 2em dm-sans !important;
-            }      
-        
-            p {
-                font: bold 1.5em sans-serif !important; 
-            }   
-            }
-        
         
             .footer-container2 {
         
@@ -745,43 +735,6 @@
 
       }
 
-
-      @media (width <= 836px) {
-
-        footer {
-            flex-direction: column;
-            .footer-container1 {
-                h3 {
-                    font: 2em dm-sans !important;
-            }      
-        
-            p {
-                font: bold 1.5em sans-serif !important; 
-            }   
-            }
-        
-        
-            .footer-container2 {
-        
-                .form {
-                    max-width: 25rem;
-                    min-width: 10rem !important;
-                    padding-block: 0.7rem !important;
-                    padding-left: 0.7rem !important;
-                    padding-right: 6rem !important;
-                    font: 0.7em sans-serif !important;
-                }
-        
-                button {
-                    max-width: 6rem;
-                    padding-block: 0.1rem !important;
-                    padding-inline: 0.7rem !important;
-                    font: 0.9em sans-serif !important;
-                }
-            }
-        }
-
-      }
 
 
 
